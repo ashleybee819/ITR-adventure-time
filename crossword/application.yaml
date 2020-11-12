@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/crossword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    hikari:
+      maximumPoolSize: 5
+      minimumIdle: 3
+      idleTimeout: 60000
+
+server:
+  servlet:
+    context-path: /crossword
