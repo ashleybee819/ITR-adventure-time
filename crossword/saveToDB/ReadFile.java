@@ -11,7 +11,7 @@ public class ReadFile {
         String line = "";
         ArrayList<CrosswordEntry> crosswordEntries = new ArrayList<>();
         try {
-            for (int year = 1988; year < 1989; year++) {
+            for (int year = 1976; year < 2019; year++) {
                 for (int month = 1; month < 13; month++) {
                     for (int day = 1; day < 32; day++) {
                         File file = new File("C:\\Users\\HP\\Documents\\GitHub\\nyt_crosswords\\" + year + "\\" + month + "\\" + day + ".json");
