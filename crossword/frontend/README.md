@@ -1,3 +1,5 @@
+This frontend code was created by Austin Brown, https://github.com/AustinBrown-98
+
 # CrosswordFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
